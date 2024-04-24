@@ -412,8 +412,7 @@ tr {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    height: 47%;
-    overflow: hidden;
+    height: 49%;
 }
 
 .list a {
@@ -573,7 +572,52 @@ tr {
         margin-top: 50px;
     }
 }
+/* mobile 425이하 */
+@media (max-width:425px) {
+    .program{
+        min-width: 100%;
+    }
+    .Calendar {
+        min-width: 300px;
+        height: 240px;
+        font-size: 10px;
+        padding: 10px 5vw;
+        box-sizing: border-box;
+    }
+    .list {
+        min-width: 90%;
+    }
 
+    .list a {
+        width: 143px;
+    }
+    .list a img {
+        height: auto;
+    }
+    .concert_title {
+        font-size: 13px;
+        line-height: 14px;
+        margin-bottom: 3px;
+    }
+
+    .place {
+        font-size: 10px;
+        font-weight: lighter;
+    }
+
+    .day {
+        padding-top: 70px;
+        text-align: left;
+        font-size: 10px;
+    }
+
+    .info {
+        width: calc(100% - 143px - 2vw);
+        height: 100%;
+        padding: 15px 17px;
+    }
+
+}
 #container3 {
     margin-top: 116px;
     background-color: #030226;
@@ -615,7 +659,7 @@ tr {
     }
 
     .t_live {
-        width: 90%;
+        width: 80%;
         margin: 0 auto;
         display: block;
         height: auto;
