@@ -114,11 +114,11 @@ body {
 /* tablet 1320이하 */
 @media (max-width:1320px) {
     #header {
-        height: 100px;
+        height: 82px;
     }
 
     .gnb_wrap {
-        top: 28px;
+        top: 16px;
         left: 0;
         margin-left: 0px;
         width: 100%;
