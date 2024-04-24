@@ -589,7 +589,7 @@ tr {
     }
 
     .list a {
-        width: 143px;
+        width: 110px;
     }
     .list a img {
         height: auto;
@@ -612,7 +612,7 @@ tr {
     }
 
     .info {
-        width: calc(100% - 143px - 2vw);
+        width: calc(100% - 120px - 2vw);
         height: 100%;
         padding: 15px 17px;
     }
