@@ -213,12 +213,16 @@ body {
         padding-top: 10px;
     }
 
-    .close_m_menu {
-        font-size: 35px;
+   .close_m_menu {
+        width: 45px;
         position: absolute;
         top: 60px;
         left: 10vw;
         cursor: pointer;
+    }
+    .close_m_menu img{
+        display: block;
+        width: 100%;
     }
 }
 
