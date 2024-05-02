@@ -190,18 +190,19 @@ body {
         top: 0;
         left: 100vw;
         z-index: 2229;
-        padding: 80px;
+        padding: 54px;
         box-sizing: border-box;
         color: #fff;
+        text-align: end;
     }
 
     .m_gnb {
-        margin-top: 80px;
+        margin-top: 60px;
     }
 
     .m_gnb li a {
         display: block;
-        font-size: 25px;
+        font-size: 20px;
         padding-bottom: 50px;
     }
 
@@ -217,15 +218,11 @@ body {
     }
 
     .close_m_menu {
-        font-size: 45px;
+       font-size: 34px;
         position: absolute;
-        top: 60px;
-        left: 10vw;
+        top: 40px;
+        left: 12vw;
         cursor: pointer;
-    }
-    .close_m_menu img{
-        display: block;
-        width: 100%;
     }
 }
 
