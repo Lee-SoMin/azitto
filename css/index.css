@@ -37,6 +37,7 @@ body {
 
 #top {
     position: relative;
+    z-index:500;
 }
 
 #header {
