@@ -199,7 +199,7 @@ body {
     }
 
     .m_gnb {
-        margin-top: 60px;
+        margin-top: 80px;
     }
 
     .m_gnb li a {
@@ -220,7 +220,7 @@ body {
     }
 
     .close_m_menu {
-       font-size: 34px;
+       font-size: 40px;
         position: absolute;
         top: 40px;
         left: 12vw;
