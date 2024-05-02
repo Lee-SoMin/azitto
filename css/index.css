@@ -217,7 +217,7 @@ body {
     }
 
     .close_m_menu {
-        width: 45px;
+        font-size: 45px;
         position: absolute;
         top: 60px;
         left: 10vw;
