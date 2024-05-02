@@ -25,6 +25,9 @@ a {
     text-decoration: none;
     color: inherit;
 }
+i::before{
+    font-family: xeicon !important;
+}
 
 body {
     font-family: pretendard, sans-serif;
@@ -37,7 +40,7 @@ body {
 
 #top {
     position: relative;
-    z-index:500;
+    z-index: 500;
 }
 
 #header {
@@ -115,11 +118,11 @@ body {
 /* tablet 1320이하 */
 @media (max-width:1320px) {
     #header {
-        height: 82px;
+        height: 100px;
     }
 
     .gnb_wrap {
-        top: 16px;
+        top: 28px;
         left: 0;
         margin-left: 0px;
         width: 100%;
@@ -182,12 +185,12 @@ body {
         font-weight: 400;
         font-style: normal;
         width: 100%;
-        height: 100%;
+        height: 100vh;
         background-color: #231FB5;
         position: fixed;
         top: 0;
         left: 100vw;
-        z-index: 309;
+        z-index: 2229;
         padding: 80px;
         box-sizing: border-box;
         color: #fff;
@@ -214,7 +217,7 @@ body {
         padding-top: 10px;
     }
 
-   .close_m_menu {
+    .close_m_menu {
         width: 45px;
         position: absolute;
         top: 60px;
@@ -501,7 +504,7 @@ tr {
     }
 
     .info {
-        width: calc(100% - 212px - 4vw);
+        width: calc(100% - 212px - 2vw);
         height: 100%;
     }
 
@@ -577,15 +580,15 @@ tr {
         margin-top: 50px;
     }
 }
-/* mobile 420이하 */
-@media (max-width:420px) {
+/* mobile 425이하 */
+@media (max-width:425px) {
     .program{
         min-width: 100%;
     }
     .Calendar {
         min-width: 300px;
         height: 240px;
-        font-size: 15px;
+        font-size: 10px;
         padding: 10px 5vw;
         box-sizing: border-box;
     }
@@ -594,7 +597,7 @@ tr {
     }
 
     .list a {
-        width: 110px;
+        width: 143px;
     }
     .list a img {
         height: auto;
@@ -617,7 +620,7 @@ tr {
     }
 
     .info {
-        width: calc(100% - 120px - 2vw);
+        width: calc(100% - 143px - 2vw);
         height: 100%;
         padding: 15px 17px;
     }
@@ -1797,6 +1800,7 @@ tr {
 }
 .btn a {
     display: inline-block;  
+    font-size: 40px;
     color: #32FF25;
     box-sizing: border-box;
     background-color: #030226;
@@ -1812,7 +1816,6 @@ tr {
     display: block;
     width: 100%;
 }
-
 .btn a.on {
     opacity: 1;
     cursor: pointer;
@@ -1823,6 +1826,15 @@ tr {
     .btn a{
         width: 50px;
         height: 50px;
-        padding: 15px;
+        font-size: 30px;
+    }
+}
+/* mobile 705이하 */
+@media (max-width:705px){
+    .btn a{
+        width: 20px;
+        height: 20px;
+        font-size: 20px;
+        right: 8vw;
     }
 }
