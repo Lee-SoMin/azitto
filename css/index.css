@@ -1829,12 +1829,3 @@ tr {
         font-size: 30px;
     }
 }
-/* mobile 705이하 */
-@media (max-width:705px){
-    .btn a{
-        width: 20px;
-        height: 20px;
-        font-size: 20px;
-        right: 8vw;
-    }
-}
