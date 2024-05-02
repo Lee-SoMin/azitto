@@ -496,7 +496,7 @@ tr {
     }
 
     .info {
-        width: calc(100% - 212px - 2vw);
+        width: calc(100% - 212px - 4vw);
         height: 100%;
     }
 
