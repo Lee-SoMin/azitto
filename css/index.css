@@ -1799,14 +1799,19 @@ tr {
     display: inline-block;  
     font-size: 40px;
     color: #32FF25;
+    box-sizing: border-box;
     background-color: #030226;
     box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.2);
-    width: 40px;
-    height: 40px;
+    width: 70px;
+    height: 70px;
     padding: 20px;
     border-radius: 50%;
     opacity: 0;
     transition: 0.7s ease;
+}
+.btn a img{
+    display: block;
+    width: 100%;
 }
 
 .btn a.on {
@@ -1817,17 +1822,8 @@ tr {
 /* tablet 1320이하 */
 @media (max-width:1320px){
     .btn a{
-        width: 30px;
-        height: 30px;
-        font-size: 30px;
-    }
-}
-/* mobile 705이하 */
-@media (max-width:705px){
-    .btn a{
-        width: 20px;
-        height: 20px;
-        font-size: 20px;
-        right: 8vw;
+        width: 50px;
+        height: 50px;
+        padding: 15px;
     }
 }
