@@ -1187,7 +1187,13 @@ tr {
     .review {
         width: 100%;
     }
+    .review_img {
+    border-radius: 10px;
+}
 
+.review_img img {
+    border-radius: 10px;
+}
 }
 
 #container7 {
