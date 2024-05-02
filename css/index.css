@@ -148,7 +148,6 @@ body {
 @media (max-width:705px) {
     #top {
         width: 100%;
-        overflow: hidden;
     }
 
     #web {
