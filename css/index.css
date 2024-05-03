@@ -149,7 +149,7 @@ body {
     #top {
         width: 100%;
         overflow: hidden;
-        height: 100vh;
+        height: auto;
     }
 
     #web {
@@ -324,9 +324,9 @@ body {
         margin: 0 auto;
     }
 
-    #container1 .title {
+    .title {
         font-size: 27px;
-        padding: 0px 0 48px;
+        padding: 50px 0 48px;
     }
 
     #t_poster .swiper-slide {
@@ -335,7 +335,7 @@ body {
     }
 
     #container1 {
-        margin-top: -90px;
+        margin-top: 50px;
     }
 }
 
