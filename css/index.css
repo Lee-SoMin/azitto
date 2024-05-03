@@ -335,8 +335,7 @@ body {
     }
 
     #container1 {
-        position: relative;
-        top: -70px;
+        margin-top: -90px;
     }
 }
 
