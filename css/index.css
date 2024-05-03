@@ -324,9 +324,9 @@ body {
         margin: 0 auto;
     }
 
-    .title {
+    #container1 .title {
         font-size: 27px;
-        padding: 50px 0 48px;
+        padding: 0px 0 48px;
     }
 
     #t_poster .swiper-slide {
